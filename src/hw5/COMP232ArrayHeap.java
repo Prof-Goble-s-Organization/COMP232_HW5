@@ -89,6 +89,7 @@ public class COMP232ArrayHeap<K extends Comparable<K>, V> implements COMP232Prio
          * This new node may not be in a proper location, i.e. it will not be 
          * larger than its  parents. To fix this we "percolate" the newly added 
          * node up the tree.
+	 * I recommend creating a helper function to assist with the percolation.
          */
         throw new UnsupportedOperationException("Not yet implemented");
     }
